@@ -1,6 +1,6 @@
 # Tableau x AI workshop microsite
 
-Static one-page site (`public/index.html`) served by a tiny Express server, same setup as the workshop guide repo.
+Static one-page site (`public/workshopguide.html`) served by a tiny Express server, same setup as the workshop guide repo.
 
     npm install
     npm start        # http://localhost:3000
