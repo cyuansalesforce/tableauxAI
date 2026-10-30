@@ -1,0 +1,9 @@
+{
+  "name": "tableau-x-ai-workshop-microsite",
+  "version": "1.0.0",
+  "description": "Tableau x AI Workshop companion guide, Oct 30, 2026",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": "22.x" },
+  "dependencies": { "express": "^4.21.0" }
+}
