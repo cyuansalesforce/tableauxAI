@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(express.static(path.join(__dirname, 'public')));
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public', 'workshopguide.html')));
+app.use(express.static(path.join(__dirname, 'files')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'files', 'workshopguide.html')));
 
 app.listen(PORT, () => console.log(`Workshop microsite running on port ${PORT}`));
